@@ -98,7 +98,7 @@ footer {
 
 .login-component {
   float: left;
-  width: 33%;
+  width: 34%;
   font-size: 20px;
 }
 
@@ -114,10 +114,16 @@ footer {
 .btn {
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+
 }
 
 .login {
   border-style: none;
   color:white;
   background-color: #FE5656;
+  display: inline-block;
+}
+
+.clear {
+  clear: left;
 }
