@@ -1,7 +1,41 @@
 /* 共通レイアウト */
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
 header {
   height:60px;
   width:100%;
   background-color: #FE5656:
   color:white;
+}
+
+.header-left {
+  height: 40px;
+  width:180px;
+  background-color: white;
+  margin: 10px 35px:
+  float: left;
+}
+
+.header-left a {
+  height: 40px;
+  width:180px;
+}
+
+.headr-logo {
+  text-align: center;
+  height: 40px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float: right;
 }
