@@ -91,6 +91,8 @@ footer {
 }
 
 .heading h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 25px;
   text-align: center;
 }
@@ -108,13 +110,13 @@ footer {
 }
 
 .login-component p {
-  margin: 20px;
+  margin: 40px 20px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.5);
 }
 
 .login-component a {
-  margin: 20px;
+  margin: 41px 21px;
   font-weight: bold;
   display: inline-block;
 }
