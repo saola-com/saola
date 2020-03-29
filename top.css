@@ -39,15 +39,16 @@ header {
 
 .header-right {
   float: right;
-  font-size:20px;
   font-weight: bold;
   color: white;
 }
 
-.header-right li {
-  float: right;
+.header-right a {
+  display: inline-block;
+  line-height: 60px;
   color:white;
-  padding: 20px 10px;
+  font-size: 20px;
+  margin:0px 10px;
 }
 
 footer {
@@ -109,15 +110,21 @@ footer {
 }
 
 .lesson img {
-  width:100%;
+  width:80%;
 }
 
 .cal_wrapper {
   margin: 0px auto;
+  width: 100%;
+}
+
+.googlecal {
+  width: 100%;
 }
 
 .googlecal iframe {
   height: 400px;
+  text-align: center;
 }
 
 .class {
