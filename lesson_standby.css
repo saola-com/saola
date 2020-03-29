@@ -97,6 +97,9 @@ footer {
 /* ============= 共通レイアウト ============= */
 .assist-msg {
   float: right;
+}
+
+.assist-msg a {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
   display: inline-block;
@@ -104,12 +107,14 @@ footer {
 }
 
 .title {
-  float: left;
   font-size: 25px;
   font-weight: bold;
 }
 
 .time {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
   background-color: rgba(196, 196, 196, 0.3);
   font-weight: normal;
 }

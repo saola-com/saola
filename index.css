@@ -102,9 +102,15 @@ footer {
   font-size: 20px;
 }
 
-.login-component a, p {
+.login-component p {
   margin: 20px;
   font-weight: bold;
+}
+
+.login-component a {
+  margin: 20px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .login-component p {
