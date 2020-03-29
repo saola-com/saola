@@ -97,6 +97,7 @@ footer {
 /* ============= 共通レイアウト ============= */
 .assist-msg {
   text-align: right;
+  margin:10px;
 }
 
 .assist-msg a {
@@ -104,11 +105,16 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-right: 10px;
 }
 
 .title {
   font-size: 25px;
   font-weight: bold;
+}
+
+.title li {
+  float: left;
 }
 
 .time {
@@ -144,6 +150,7 @@ footer {
 .members {
   text-align: left;
   width: 100%;
+  margin-right: 10px;
 }
 
 .members h2 {
@@ -159,7 +166,7 @@ footer {
   font-size: 20px;
 }
 
-.fa-user-circle {
+.user-icon {
   height: 80%;
   margin-right: 10px;
 }
@@ -177,14 +184,15 @@ footer {
 
 .chatbox img {
   width:70%;
-}
-
-.chat-icon {
-  height: 50px;
   margin:10px;
 }
 
-input-area {
+.chat-icon {
+  width: 30%;
+  margin: 10px;
+}
+
+.input-area {
   height: 100px;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
@@ -194,7 +202,7 @@ input-area {
 }
 
 .input-area img {
-  height 20px;
+  height: 20px;
   float: right;
 }
 
