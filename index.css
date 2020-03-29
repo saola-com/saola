@@ -1,4 +1,4 @@
-/* 共通レイアウト */
+/* ============== 共通レイアウト ============== */
 body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
@@ -91,14 +91,14 @@ footer {
   text-align: center;
 }
 
-/* index layout */
+/* ============== index layout ============== */
 .login-components {
   text-align: center;
 }
 
 .login-component {
   float: left;
-  width: 34%;
+  width: 33.3%;
   font-size: 20px;
 }
 
