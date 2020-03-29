@@ -95,3 +95,88 @@ footer {
 }
 
 /* ============= 共通レイアウト ============= */
+.assist-msg {
+  float: right;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.time {
+  background-color: rgba(196, 196, 196, 0.3);
+  font-weight: normal;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.fa-square {
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.preparations p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.members {
+  text-align: left;
+  font-size: 25px
+}
+
+.member {
+  padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.fa-user-circle {
+  height: 80%;
+  margin-right: 10px;
+}
+
+.right-content {
+  width: 50px;
+}
+
+.chatbox {
+  height:600px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.chatbox img {
+  width:70%;
+}
+
+.chat-icon {
+  height: 50px;
+  margin:10px;
+}
+
+input-area {
+  height: 100px;
+}
+
+.input-area p {
+  float: left;
+}
+
+.input-area img {
+  height 20px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
