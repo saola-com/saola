@@ -1,4 +1,4 @@
-/* 共通レイアウト */
+
 body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 }
@@ -94,46 +94,4 @@ footer {
   text-align: center;
 }
 
-
-/* top layout */
-.lessons {
-  text-align: center;
-}
-
-.lesson {
-  float: left;
-  width: 33.3%;
-}
-
-.clear {
-  clear:left;
-}
-
-.lesson img {
-  width:70%;
-}
-
-.cal_wrapper {
-  width: 100%;
-}
-
-.googlecal {
-  width: 100%;
-}
-
-.googlecal iframe {
-  display: block;
-  height: 400px;
-  text-align: center;
-  margin: 0px auto;
-}
-
-.class {
-  width:33.3%;
-  float:left;
-}
-
-.class img {
-  margin: 10px;
-  width: 80%;
-}
+/* ============= 共通レイアウト ============= */
