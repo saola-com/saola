@@ -7,11 +7,14 @@ li {
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 header {
   height: 60px;
   width: 100%;
-  background-color: #FE5656;
-  color: white;
+  border-bottom: 5px solid #FE5656;
 }
 
 .header-left {
@@ -29,7 +32,7 @@ header {
 }
 
 .header-logo {
-  padding: 5px 20px;
+  padding: 20px;
   height: 40px;
 }
 
@@ -41,6 +44,8 @@ header {
 
 .header-right li {
   float: right;
+  color:white;
+  padding-left: 10px;
 }
 
 footer {
