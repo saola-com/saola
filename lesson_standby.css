@@ -111,6 +111,8 @@ footer {
 .title {
   font-size: 25px;
   font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
 
 .title li {
@@ -149,7 +151,7 @@ footer {
 
 .members {
   text-align: left;
-  width: 100%;
+  width: 70%;
   margin-right: 10px;
 }
 
