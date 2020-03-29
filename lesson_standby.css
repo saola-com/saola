@@ -187,7 +187,9 @@ footer {
 
 .icon {
   float: left;
-  width: 30%;
+  width: 20%;
+  padding:10px;
+  text-align: center;
 }
 
 .chatbox img {
@@ -197,8 +199,7 @@ footer {
 }
 
 .chat-icon {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 30px;
 }
 
 .input-area {
