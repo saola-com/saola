@@ -28,7 +28,7 @@ header {
 }
 
 .header-logo {
-  text-align: center;
+  margin: 0px auto;
   height: 40px;
 }
 
@@ -69,7 +69,7 @@ footer {
 
 .container {
   width: 80%;
-  padding: 0 auto;
+  margin: 0 auto;
 }
 
 .heading {
