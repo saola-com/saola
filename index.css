@@ -105,6 +105,7 @@ footer {
 .login-component p {
   margin: 20px;
   font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .login-component a {
@@ -113,21 +114,16 @@ footer {
   display: inline-block;
 }
 
-.login-component p {
-  color: rgba(0, 0, 0, 0.5);
-}
-
 .btn {
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-
+  width: 100%;
 }
 
 .login {
   border-style: none;
   color:white;
   background-color: #FE5656;
-  display: inline-block;
 }
 
 .clear {
