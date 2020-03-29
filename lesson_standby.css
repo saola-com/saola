@@ -124,12 +124,16 @@ footer {
 }
 
 .left-content {
-  width: 50%;c
+  width: 50%;
 }
 
 .fa-square {
   margin-right: 10px;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.preparations {
+  width: 100%;
 }
 
 .preparations p {
@@ -138,12 +142,20 @@ footer {
 
 .members {
   text-align: left;
+  width: 100%;
+}
+
+.members h2 {
   font-size: 25px
 }
 
 .member {
   padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.member p {
+  font-size: 20px;
 }
 
 .fa-user-circle {
@@ -152,11 +164,12 @@ footer {
 }
 
 .right-content {
-  width: 50px;
+  width: 50%;
 }
 
 .chatbox {
   height:600px;
+  width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
