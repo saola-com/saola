@@ -124,6 +124,7 @@ footer {
 }
 
 .left-content {
+  float: left;
   width: 50%;
 }
 
@@ -165,6 +166,7 @@ footer {
 
 .right-content {
   width: 50%;
+  float:right;
 }
 
 .chatbox {
