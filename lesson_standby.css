@@ -192,14 +192,14 @@ footer {
   text-align: center;
 }
 
+.chat-icon {
+  font-size: 30px;
+}
+
 .chatbox img {
   float: left;
   width:70%;
   margin:10px;
-}
-
-.chat-icon {
-  font-size: 30px;
 }
 
 .input-area {
