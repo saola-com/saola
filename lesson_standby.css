@@ -96,7 +96,7 @@ footer {
 
 /* ============= 共通レイアウト ============= */
 .assist-msg {
-  float: right;
+  text-align: right;
 }
 
 .assist-msg a {
