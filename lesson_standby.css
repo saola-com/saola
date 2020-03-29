@@ -115,10 +115,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.title li {
-  float: left;
-}
-
 .time {
   display: inline-block;
   text-align: center;
@@ -190,7 +186,7 @@ footer {
 }
 
 .chat-icon {
-  width: 30%;
+  font-size: 20px;
   margin: 10px;
 }
 
