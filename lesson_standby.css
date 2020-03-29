@@ -179,10 +179,12 @@ footer {
   float:right;
 }
 
-.chatbox {
-  height:400px;
+header {
+  height: 60px;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: #FE5656;
+  position: fixed;
+  z-index: 10;
 }
 
 .icon {
