@@ -14,7 +14,7 @@ a{
 header {
   height: 60px;
   width: 100%;
-  border-bottom: 5px solid #FE5656;
+  background-color: #FE5656;
 }
 
 .header-left {
