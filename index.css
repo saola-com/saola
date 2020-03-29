@@ -25,10 +25,11 @@ header {
 .header-left a {
   height: 40px;
   width:180px;
+  display: inline-block;
 }
 
 .header-logo {
-  margin: 0px auto;
+  padding: 5px 20px;
   height: 40px;
 }
 
