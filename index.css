@@ -23,6 +23,7 @@ header {
   background-color: white;
   margin: 10px 35px;
   float: left;
+  border-radius: 10px;
 }
 
 .header-left a {
@@ -32,7 +33,7 @@ header {
 }
 
 .header-logo {
-  padding: 20px;
+  padding:0px 20px;
   height: 40px;
 }
 
@@ -88,4 +89,35 @@ footer {
 .heading h2 {
   font-size: 25px;
   text-align: center;
+}
+
+/* index layout */
+.login-components {
+  text-align: center;
+}
+
+.login-component {
+  float: left;
+  width: 33%;
+  font-size: 20px;
+}
+
+.login-component a, p {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.login-component p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.login {
+  border-style: none;
+  color:white;
+  background-color: #FE5656;
 }

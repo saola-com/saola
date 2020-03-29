@@ -23,6 +23,7 @@ header {
   background-color: white;
   margin: 10px 35px;
   float: left;
+  border-radius: 10px;
 }
 
 .header-left a {
