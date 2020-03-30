@@ -164,6 +164,8 @@ footer {
 
 .preparations p {
   color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .members {
@@ -173,7 +175,9 @@ footer {
 }
 
 .members h2 {
-  font-size: 25px
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
 }
 
 .member {
@@ -187,7 +191,7 @@ footer {
 }
 
 .user-icon {
-  height: 80%;
+  height: 15px;
   margin-right: 10px;
   margin-left: 10px;
 }
