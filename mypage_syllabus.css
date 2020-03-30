@@ -170,7 +170,7 @@ footer {
 
 .content p {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
   text-align: left;
   margin-left: 10px;
   margin-top: 5px;
@@ -178,13 +178,15 @@ footer {
 }
 
 .content input {
-    margin: 0 10px;
-    width: 300px;
-    height: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: left;
+  margin: 0 10px;
+  width: 300px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .content textarea {
+  text-align: left;
   margin: 0 10px;
   height: 80px;
   width: 300px;
