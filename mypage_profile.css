@@ -117,6 +117,8 @@ footer {
 /* ========== profile layout ========== */
 
 .tab {
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -141,22 +143,40 @@ footer {
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  margin-bottom: 50px;
+}
+
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.5);:
 }
 
 .entry {
   width: 30%;
+  float: left;
+}
+
+.entry p {
+  text-align: left;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .content {
   width: 70%;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.content p {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  float: left;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .pro-img {
