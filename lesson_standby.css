@@ -176,14 +176,9 @@ footer {
 
 .right-content {
   width: 50%;
-  float:right;
+  float: right;
 }
 
-header {
-  height: 60px;
-  width: 100%;
-  background-color: #FE5656;
-}
 
 .icon {
   float: left;
@@ -194,6 +189,12 @@ header {
 
 .chat-icon {
   font-size: 30px;
+}
+
+.chatbox {
+  height:300px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .chatbox img {
