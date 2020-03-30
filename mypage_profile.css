@@ -132,7 +132,8 @@ footer {
 }
 
 .appear {
-  border-bottom: 1px solid rgba(254, 86, 86, 0.5);:
+  border-bottom: 1px solid rgba(254, 86, 86, 0.5);
+  font-size: 20px;
 }
 
 .hide {
@@ -190,7 +191,8 @@ footer {
 
 .pro-img {
   font-size: 40px;
-  text-align:
+  display: inline-block;
+  text-align: left;
 }
 
 .clear {

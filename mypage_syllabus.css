@@ -130,12 +130,9 @@ footer {
   width: 50%;
 }
 
-.tab-title {
-  font-size: 20px;
-}
-
 .appear {
-  border-bottom: 1px solid rgba(254, 86, 86, 0.5);:
+  border-bottom: 1px solid rgba(254, 86, 86, 0.5);
+  font-size: 20px;
 }
 
 .hide {
