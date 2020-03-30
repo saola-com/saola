@@ -183,8 +183,6 @@ header {
   height: 60px;
   width: 100%;
   background-color: #FE5656;
-  position: fixed;
-  z-index: 10;
 }
 
 .icon {
