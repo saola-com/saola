@@ -147,7 +147,7 @@ footer {
 }
 
 .table {
-  border: 1px solid rgba(0, 0, 0, 0.5);:
+  border: 1px solid rgba(0, 0, 0, 0.3);:
 }
 
 .entry {
@@ -166,7 +166,7 @@ footer {
 
 .content {
   width: 70%;
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
   float: left;
 }
 
