@@ -166,7 +166,7 @@ footer {
 .entry p {
   text-align: left;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -180,17 +180,17 @@ footer {
 
 .content p {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
   text-align: left;
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
+
+
 .pro-img {
   font-size: 40px;
-  display: inline-block;
-  text-align: left;
 }
 
 .clear {
