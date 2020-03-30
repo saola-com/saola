@@ -115,3 +115,50 @@ footer {
 }
 
 /* ========== profile layout ========== */
+
+.tab {
+  text-align: center;
+}
+
+.tab-title {
+  float: left;
+  width: 50%;
+}
+
+.tab-title {
+  font-size: 20px;
+}
+
+.appear {
+  border-bottom: 1px solid rgba(254, 86, 86, 0.5);:
+}
+
+.hide {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.entry {
+  width: 30%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.content {
+  width: 70%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.pro-img {
+  font-size: 40px;
+}
