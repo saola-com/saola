@@ -128,6 +128,7 @@ footer {
 .tab-title {
   float: left;
   width: 50%;
+  height: 20px;
 }
 
 .appear {
@@ -136,6 +137,7 @@ footer {
 }
 
 .hide {
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.3);
   display: inline-block;
   font-weight: bold;
