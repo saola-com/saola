@@ -1,4 +1,4 @@
-
+/* ========== common layout ========== */
 * {
   box-sizing: border-box;
 }
@@ -114,7 +114,7 @@ footer {
   text-align: center;
 }
 
-/* ============= 共通レイアウト ============= */
+/* ============= lesson_standby layout ============= */
 .assist-msg {
   text-align: right;
   margin:10px;
