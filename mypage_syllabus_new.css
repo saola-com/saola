@@ -223,15 +223,19 @@ footer {
 }
 
 .submit {
-  margin-top: 30px;
   display: inline-block;
+  background-color: #FE5656;
+  color:white;
   font-size: 20px;
   font-weight: bold;
   height: 30px;
   width: 100px;
-  line-height: 20px;
+  line-height: 30px;
   border-style: none;
-  color:white;
-  background-color: #FE5656;
-  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-component a {
+  text-align: center;
 }
