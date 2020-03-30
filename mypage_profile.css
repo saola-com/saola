@@ -182,3 +182,7 @@ footer {
 .pro-img {
   font-size: 40px;
 }
+
+.clear {
+  clear: left;
+}
