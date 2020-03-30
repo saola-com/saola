@@ -140,6 +140,9 @@ footer {
 
 .hide {
   color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .profile {
@@ -150,7 +153,13 @@ footer {
 }
 
 .table {
-  border: 1px solid rgba(0, 0, 0, 0.5);:
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table-end {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .entry {
