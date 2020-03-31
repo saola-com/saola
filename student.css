@@ -304,10 +304,10 @@ footer {
 
 .graph p {
   margin: 0 auto;
+  text-align: center;
 }
 
 .graph img {
-  text-align: center;
   width: 90%;
 }
 
@@ -318,9 +318,9 @@ footer {
 
 .test-wrapper p {
   margin: 0 auto;
+  text-align: center;
 }
 
 .test-wrapper img {
-  text-align: center;
   width: 90%;
 }
