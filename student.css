@@ -299,7 +299,7 @@ footer {
 
 .graph {
   float: left;
-  width: 60%;
+  width: 70%;
 }
 
 .graph p {
@@ -313,7 +313,7 @@ footer {
 
 .test-wrapper {
   float: left;
-  width: 40%;
+  width: 30%;
 }
 
 .test-wrapper p {
@@ -322,5 +322,6 @@ footer {
 }
 
 .test-wrapper img {
-  width: 80%;
+  width: 50%;
+  padding: 10px;
 }
