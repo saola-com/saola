@@ -1,0 +1,259 @@
+/* ========== common layout ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+input {
+  background-color: transparent;
+  outline-width: 0;
+}
+
+form input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #FE5656;
+}
+
+.header-left {
+  height: 40px;
+  width:180px;
+  background-color: white;
+  margin: 10px 35px;
+  float: left;
+  border-radius: 10px;
+}
+
+.header-left a {
+  height: 40px;
+  width:180px;
+  display: inline-block;
+}
+
+.header-logo {
+  padding:0px 20px;
+  height: 40px;
+}
+
+.header-right {
+  float: right;
+  font-weight: bold;
+  color: white;
+}
+
+.header-right a {
+  display: inline-block;
+  line-height: 60px;
+  color:white;
+  font-size: 20px;
+  margin:0px 10px;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  color:black;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-logo {
+  margin: 10px 35px;
+  height:30px
+}
+
+.footer-right {
+  float: right;
+  color: black;
+  font-size: 16px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+/* ========== mypage_syllabus layout ========== */
+.heading {
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(254, 86, 86, 1);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.heading p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.tab {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.tab-title {
+  float: left;
+  width: 33.3%;
+  height: 30px;
+}
+
+.appear {
+  border-bottom: 1px solid rgba(254, 86, 86, 0.5);
+  font-size: 20px;
+}
+
+.hide {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.syllabus {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.table {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table-end {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.entry {
+  width: 30%;
+  float: left;
+}
+
+.entry p {
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content {
+  width: 70%;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.content p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.entry {
+  width: 30%;
+  float: left;
+}
+
+.entry p {
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content {
+  width: 70%;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.content p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content a {
+  color: white;
+  background-color: rgba(254, 86, 86, 1);
+  height: 20px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.submit {
+  display: inline-block;
+  background-color: #FE5656;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+  border-style: none;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-component {
+  text-align: center;
+}
