@@ -292,10 +292,11 @@ footer {
   margin-bottom: 5px;
 }
 
-.div {
+.graph {
   margin: 40px auto;
 }
 
-.img {
-  height: 100px;
+.graph img {
+  text-align: center;
+  height: 200px;
 }
