@@ -297,6 +297,10 @@ footer {
   text-decoration-color: rgba(0, 0, 0, 0.8);
 }
 
+.graph-wrapper {
+  margin-bottom: 50px;
+}
+
 .graph {
   float: left;
   width: 70%;
