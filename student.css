@@ -297,7 +297,28 @@ footer {
   text-decoration-color: rgba(0, 0, 0, 0.8);
 }
 
+.graph {
+  float: left;
+  width: 70%;
+}
+
+.graph p {
+  margin: 0 auto;
+}
+
 .graph img {
-  margin: 40px 400px;
-  height: 300px;
+  text-align: center;
+}
+
+.test-wrapper {
+  float: left;
+  width: 30%;
+}
+
+.test-wrapper p {
+  margin: 0 auto;
+}
+
+.test-wrapper img {
+  text-align: center;
 }
