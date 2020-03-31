@@ -292,11 +292,12 @@ footer {
   margin-bottom: 5px;
 }
 
-.graph {
-  margin: 40px auto;
+.homework {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.8);
 }
 
 .graph img {
-  text-align: center;
-  height: 200px;
+  margin: 40px auto;
+  height: 300px;
 }
