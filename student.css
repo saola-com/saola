@@ -308,6 +308,7 @@ footer {
 
 .graph img {
   text-align: center;
+  width: 90%;
 }
 
 .test-wrapper {
@@ -321,4 +322,5 @@ footer {
 
 .test-wrapper img {
   text-align: center;
+  width: 90%;
 }
