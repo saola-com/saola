@@ -1,0 +1,301 @@
+/* ========== common layout ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+input {
+  background-color: transparent;
+  outline-width: 0;
+}
+
+form input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #FE5656;
+}
+
+.header-left {
+  height: 40px;
+  width:180px;
+  background-color: white;
+  margin: 10px 35px;
+  float: left;
+  border-radius: 10px;
+}
+
+.header-left a {
+  height: 40px;
+  width:180px;
+  display: inline-block;
+}
+
+.header-logo {
+  padding:0px 20px;
+  height: 40px;
+}
+
+.header-right {
+  float: right;
+  font-weight: bold;
+  color: white;
+}
+
+.header-right a {
+  display: inline-block;
+  line-height: 60px;
+  color:white;
+  font-size: 20px;
+  margin:0px 10px;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  color:black;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-logo {
+  margin: 10px 35px;
+  height:30px
+}
+
+.footer-right {
+  float: right;
+  color: black;
+  font-size: 16px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+/* ========== mypage_syllabus layout ========== */
+.heading {
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(254, 86, 86, 1);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.heading p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.tab {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.tab-title {
+  float: left;
+  width: 33.3%;
+  height: 30px;
+}
+
+.appear {
+  border-bottom: 1px solid rgba(254, 86, 86, 0.5);
+  font-size: 20px;
+}
+
+.hide {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.detail {
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.table {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.table-end {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.entry {
+  width: 30%;
+  float: left;
+}
+
+.entry p {
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content {
+  width: 70%;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  float: left;
+}
+
+.content p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content a {
+  text-decoration: underline rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  line-height: 30px;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.members {
+  text-align: left;
+  width: 70%;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.members h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.member {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-style: none;
+  height: 40px;
+}
+
+.last {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.member a {
+  display: block;
+  line-height: 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.user-icon {
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.this-student {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.img {
+  float: left;
+  width: 30%;
+}
+
+.pro-img {
+  height: 100%;
+  width: 100%;
+  font-size: 150px;
+  text-align: center;
+}
+
+.profile {
+  float: left;
+  width: 70%;
+}
+
+.dashboad {
+  margin-bottom: 40px;
+}
+
+.first {
+  background-color: rgba(254, 86, 86, 0.3);
+  font-weight: bold;
+}
+
+.number {
+  width: 10%;
+  float: left;
+}
+
+.lesson, .attendance, .score {
+  width: 30%;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  float: left;
+}
+
+.number p, .lesson p, .attendance p, .score p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.div {
+  margin: 40px auto;
+}
+
+.img {
+  height: 100px;
+}
